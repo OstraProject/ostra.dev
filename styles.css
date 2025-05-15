@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'JetBMono';
+  src: url('bin/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JetBMono';
+  src: url('bin/JetBrainsMono-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+.ostraLogo {
+  font-family: 'JetBMono', monospace;
+  font-weight: 400;
+  font-style: normal; /* Явно указываем normal */
+  line-height: 0.4;
+}
+
+.slogan, .textwhy, .whatIN {
+  font-family: 'JetBMono', monospace;
+  font-weight: 400;
+  font-style: italic; /* Включаем курсив */
+  line-height: 0.4;
+}
+
+.screenshot {
+    width: 85%;
+}
+
+.des {
+  font-family: 'JetBMono', monospace;
+  font-weight: 400;
+  font-style: normal; /* Явно указываем normal */
+  line-height: 1.0;
+  padding: 0 6%; /* Внутренние отступы */
+}
